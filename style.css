@@ -1,0 +1,116 @@
+main {
+  height: 5000px;
+  background-color: blue;
+}
+
+/* start Admin-Panel */
+
+.admin-panel {
+  max-width: 265px;
+  padding: 11px 21px;
+
+  background-color: white;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  position: sticky;
+  top: 0px;
+}
+
+.admin-panel article,
+.admin-panel div {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: space-around;
+  /* Test */
+  /* border: 1px solid black; */
+}
+
+.admin-panel div {
+  min-width: 200px;
+  height: 140px;
+}
+
+.pages p,
+.pages h3,
+.pages a {
+  align-self: self-start;
+}
+
+.pages a {
+  color: #a0aec0;
+}
+
+.admin-panel article:first-child {
+  margin-bottom: 69px;
+}
+
+#documentation {
+  background-color: #3182ce;
+
+  padding: 10px 50px;
+  font-size: 10px;
+
+  border-radius: 8px;
+}
+
+.icon {
+  /* Test */
+  /* border: 1px solid black; */
+}
+
+.icon:not(#Control) {
+  margin-left: 5px;
+}
+
+.icon::before {
+  content: "";
+  display: inline-block;
+  background: url("./assets/images/icons/Chart.svg") 0 / cover no-repeat;
+  width: 15px;
+  height: 15px;
+  margin-right: 20px;
+}
+
+#Control {
+  display: flex;
+  align-items: center;
+}
+
+#Control::before {
+  background: url("./assets/images/icons/House.svg") 50% / 15px no-repeat;
+  background-color: #3182ce;
+  border: 1px solid black;
+  border-radius: 8px;
+
+  padding: 15px;
+  width: 0;
+  height: 0;
+}
+
+#Billing::before {
+  background-image: url("./assets/images/icons/Billing.svg");
+}
+
+#RLT::before {
+  background-image: url("./assets/images/icons/RLT.svg");
+}
+
+#Profile::before {
+  background-image: url("./assets/images/icons/Profile.svg");
+}
+
+#Sign-in::before {
+  background-image: url("./assets/images/icons/SignIn.svg");
+}
+
+#Sign-up::before {
+  background-image: url("./assets/images/icons/SignUp.svg");
+}
+
+/* End Admin-Panel */
