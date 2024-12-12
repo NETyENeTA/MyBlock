@@ -46,19 +46,6 @@ main {
   color: #a0aec0;
 }
 
-.admin-panel article:first-child {
-  margin-bottom: 69px;
-}
-
-#documentation {
-  background-color: #3182ce;
-
-  padding: 10px 50px;
-  font-size: 10px;
-
-  border-radius: 8px;
-}
-
 .icon {
   /* Test */
   /* border: 1px solid black; */
@@ -111,6 +98,23 @@ main {
 
 #Sign-up::before {
   background-image: url("./assets/images/icons/SignUp.svg");
+}
+
+.admin-panel article:first-child {
+  margin-bottom: 69px;
+}
+
+.help p {
+  margin-bottom: 38px;
+}
+
+#documentation {
+  background-color: #3182ce;
+
+  padding: 10px 50px;
+  font-size: 10px;
+
+  border-radius: 8px;
 }
 
 /* End Admin-Panel */
